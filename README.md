@@ -1,5 +1,5 @@
 # Solutions of Code Combat Competition
 
-### Language Wise:
+### Language Wise Solutions:
 - [x] [Python](Python)
-- [] [C](C)
+- [ ] [C](C)
