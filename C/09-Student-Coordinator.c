@@ -19,13 +19,13 @@ int main()
         
     }
     
-    for(int i=0; i<m1; i++)             // printing sections respective number of times.
+    for(i=0; i<m1; i++)             // printing sections respective number of times.
         printf("M1 ");
     
-    for(int i=0; i<m2; i++)
+    for(i=0; i<m2; i++)
         printf("M2 ");
     
-    for(int i=0; i<m3; i++)
+    for(i=0; i<m3; i++)
         printf("M3 ");
     
     return 0;
