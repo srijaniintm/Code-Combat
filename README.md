@@ -2,4 +2,4 @@
 
 ### Language Wise Solutions:
 - [x] [Python](Python)
-- [ ] [C](C)
+- [x] [C](C)
