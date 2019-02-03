@@ -2,6 +2,10 @@
 #include <string.h>
 int main()
 {
+    int t;
+    scanf("%d",&t);
+    while (t>0){
+        
     int i,n, m1=0, m2=0 ,m3 = 0;
     
     scanf("%d",&n);                     // number of students
@@ -28,5 +32,8 @@ int main()
     for(i=0; i<m3; i++)
         printf("M3 ");
     
+    printf("\n");
+    t--;
+    }
     return 0;
 }
