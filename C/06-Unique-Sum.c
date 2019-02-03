@@ -2,31 +2,30 @@
 
 int main()
 {
-    int n, i;
-    scanf("%d",&n);         // Size of Array
-    int arr[n], arr2[n];
-    
-    for(i=0; i<n; i++){         //intaking elements into array
-        scanf("%d",&arr[i]);
+    int t;
+    scanf("%d",&t);
+    while(t>0){
+        int n, i;
+        scanf("%d",&n);         // Size of Array
+        int arr[n];
+        for(i=0; i<n; i++){         //intaking elements into array
+            scanf("%d",&arr[i]);
+        }
+        long int sum=0;
+        for (i=0; i<n-1; i++){        // traversing array 
+            int flag=0;
+        for(int j=i+1; j<n; j++){       // checking for duplicate element
+                if (arr[i]==arr[j]){   //if repeated, then skip
+                    flag=1;
+                    break;
+                }   
+            }
+            if(flag==0)             //if not repeated, add it
+                sum+=arr[i];
+        }
+        sum += arr[n-1];            
+        printf("%ld\n",sum);            //printing sum
+        t--;
     }
-    
-    int pos=0;
-    for (i=0; i<n; i++){        // traversing array 
-        int flag=0;
-        for(int j=0; j<pos; j++){
-            if (arr[i]==arr2[j]){   //checking for duplicate element
-                flag=1;
-                break;
-        }   }
-        if(flag==0){
-            arr2[pos] = arr[i];     //copying non-duplicate element to second array
-            pos++;
-    }   }
-    
-    long int sum=0;
-    for (i=0; i<pos; i++){      // sum of element of second array
-        sum = sum + arr2[i];
-    }
-    printf("%ld",sum);       
     return 0;
 }
