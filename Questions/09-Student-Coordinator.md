@@ -11,7 +11,7 @@ Student[i] – Section of ith student
 List of students sorted according to their sections.
 
 #### Constraints:
-1 <= T <= 1000
+1 <= T <= 1000 <br>
 1 <= N, Student[i] <= 10<sup>18</sup>
 
 #### Sample Input:
