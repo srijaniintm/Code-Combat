@@ -12,7 +12,7 @@ Sum of unique numbers
 
 #### Constraints:
 1 <= T <= 1000 <br>
-1 <= N, Ball[i] <= 1018
+1 <= N, Ball[i] <= 10<sup>18</sup>
 
 #### Sample Input:
 2 <br>
