@@ -1,4 +1,5 @@
-def reverse(n): # function to reverse the number.
+# function to reverse the number.
+def reverse(n):
     temp,rev,rem = n, 0, 0
     while temp != 0:
         rem = temp % 10
